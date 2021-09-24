@@ -1,11 +1,41 @@
 // Place all the styles related to the pages controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+*{
 
+}
 .hero {
     padding: 50px;
 }
+
 .hero h1, h2{
     font-family: 'Lora', serif;
     margin:40px;
+}
+
+.perf{
+    margin:auto;
+    margin-top: 40px;
+    width: 200px;
+    height: 180px;
+    background: url(i-logo.svg);
+    background-size: 200px 180px;
+}
+
+.hr{
+    width: 85%;
+    margin: auto;
+}
+
+.coding{
+    margin:auto;
+    margin-top: 40px;
+    width: 500px;
+    height: 480px;
+    background: url(coding.svg);
+    background-size: 500px 480px;
+}
+
+.parrafoAbout{
+    padding: 0% 50%;
 }
